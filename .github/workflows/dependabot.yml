@@ -1,3 +1,8 @@
+name: Dependabot
+on:
+  push:
+    branches:
+      - main
 version: 2
 updates:
   - package-ecosystem: "npm" # or "maven", "gradle", "pip"
